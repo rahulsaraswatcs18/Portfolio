@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat";
+    /* background-image: linear-gradient(to right, black, gray); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.avatar-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.big-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+.topheading {
+    margin-top: 100px;
+}
+
+.top-heading p {
+    font-size: 1.5rem;
+}
+
+.top-section {
+    background-image: url(images/notebook-1280538_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* navbar */
+
+nav {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.pro {
+    width: 10%;
+    margin: auto;
+    /* top: -40px; */
+}
+
+
+/*about me */
+
+#aboutMe {
+    margin-top: 100px;
+}
+
+.aboutme-section {
+    margin: 0;
+}
+
+.feature-box {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.first-box {
+    text-align: right;
+}
+
+.first-box h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+.first-box p,
+.third-box p {
+    font-size: 1rem;
+}
+
+.first-box li {
+    list-style: none;
+}
+
+.third-box {
+    text-align: left;
+}
+
+.third-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.third-box li {
+    list-style: none;
+}
+
+.feature-box img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+#skills {
+    background-color: rgb(22, 22, 22);
+    padding: 0 30px;
+}
+
+.qualification {
+    padding: 70px 20px;
+}
+
+.qualification li {
+    padding: 10px 30px;
+}
+
+.qualification .year {
+    color: #4f8a8b;
+}
+
+.qualification h2 {
+    color: white;
+}
+
+.qualification h3 {
+    color: #e0ece4;
+}
+
+.normal-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+
+.skill li {
+    padding: 18px 30px;
+}
+
+
+/* interest */
+
+#interest {
+    text-align: center;
+    margin: 130px 0;
+}
+
+#interest h1 {
+    margin-bottom: 30px;
+}
+
+.interest-box {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.icon {
+    margin: 20px;
+    transition: .5s;
+}
+
+#interest h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#interest p {
+    line-height: 1.5;
+}
+
+#interest .fa-music:hover {
+    color: #ffd571;
+}
+
+#interest .fa-plane:hover {
+    color: #0b5269;
+}
+
+#interest .fa-code:hover {
+    color: #be3144;
+}
+
+#interest .fa-pencil-alt:hover {
+    color: #854836;
+}
+
+
+/* touch */
+
+#contact-me {
+    margin: 130px 10px;
+    text-align: center;
+}
+
+#contact-me p {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, black, gray);
+    background-image: -moz-linear-gradient(top, black, gray);
+    background-image: -ms-linear-gradient(top, black, gray);
+    background-image: -o-linear-gradient(top, black, gray);
+    background-image: linear-gradient(to bottom, black, gray);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    transition: .5s;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: white;
+    background-image: -webkit-linear-gradient(top, lightgray, #41444b);
+    background-image: -moz-linear-gradient(top, lightgray, #41444b);
+    background-image: -ms-linear-gradient(top, lightgray, #41444b);
+    background-image: -o-linear-gradient(top, lightgray, #41444b);
+    background-image: linear-gradient(to bottom, lightgray, #41444b);
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/* footer */
+
+#contact {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, #9cada4, black);
+}
+
+.social-icon {
+    margin: 50px 20px;
+    color: black;
+    transition: 0.4s;
+}
+
+.social-icon:hover {
+    color: whitesmoke;
+}
+
+#contact p {
+    color: black;
+}
+
+@media(min-width:770px) and (max-width: 990px) {
+    .feature-box img {
+        height: 100%;
+        width: 100%;
+    }
+    .feature-box {
+        margin-top: 0;
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+    .first-box {
+        padding-right: 30px;
+    }
+    .third-box {
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 771px) {
+    .feature-box img {
+        height: 270px;
+        width: 270px;
+    }
+    .feature-box {
+        margin-bottom: 60px;
+    }
+    .first-box,
+    .third-box {
+        text-align: center;
+    }
+}
+
+@media(max-width: 990px) {
+    .first-box,
+    .third-box {
+        padding: 0;
+        margin: 0;
+    }
+    .feature-box img {
+        border-radius: 100%;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .aboutme-section {
+        margin: 40px 0;
+    }
+    #contact-me h2 {
+        font-size: 3.5rem;
+    }
+    .button {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:501px) {
+    .main {
+        min-width: 500px;
+    }
+}
